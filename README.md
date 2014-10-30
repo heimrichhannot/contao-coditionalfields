@@ -9,4 +9,4 @@ If a user selects the condition, the dependent fields will appaer.
 
 # Requirements
 
-* >= Contao 3.3.0 (maybe works also with 3.0 Versions, but not tested yet) 
+* works with Contao 3.3.5
