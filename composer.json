@@ -1,0 +1,33 @@
+{
+    "name": "heimrichhannot/contao-conditionalfields",
+    "description":"Define dependencies between form fields.",
+    "keywords":["contao", "form", "field", "condition"],
+    "type": "contao-module",
+    "homepage":"https://github.com/heimrichhannot/contao-coditionalfields",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/heimrichhannot/contao-coditionalfields/issues"
+    },
+    "require": {
+        "contao/core": ">=3.3,<4-dev",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+	"extra": {
+		"contao": {
+			"sources": {
+				"": "system/modules/conditionalfields"
+			}
+		}
+	}
+}
