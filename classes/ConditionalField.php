@@ -49,7 +49,7 @@ class ConditionalField extends \Frontend
 	{
 		$arrConditions = array();
 
-		$arrColumns = array("pid=? AND type IN('condition_radio', 'condition_select')");
+		$arrColumns = array("pid=? AND type IN('condition_radio', 'condition_checkbox', 'condition_select')");
 
 		$arrValues = array($arrForm['id']);
 		
@@ -74,7 +74,7 @@ class ConditionalField extends \Frontend
 	{
 		$arrConditions = array();
 
-		$arrColumns = array("pid=? AND type IN('condition_radio', 'condition_select')");
+		$arrColumns = array("pid=? AND type IN('condition_radio', 'condition_checkbox', 'condition_select')");
 
 		$arrValues = array($arrForm['id']);
 		

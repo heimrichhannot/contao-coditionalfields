@@ -14,6 +14,7 @@
  * Frontend form fields
  */
 $GLOBALS['TL_FFL']['condition_radio'] = 'HeimrichHannot\ConditionalFields\FormConditionRadioButton';
+$GLOBALS['TL_FFL']['condition_checkbox'] = 'HeimrichHannot\ConditionalFields\FormConditionCheckBox';
 $GLOBALS['TL_FFL']['condition_select'] = 'HeimrichHannot\ConditionalFields\FormConditionSelectMenu';
 
 /**
@@ -26,4 +27,5 @@ $GLOBALS['TL_HOOKS']['validateFormField'][] = array('HeimrichHannot\ConditionalF
  * EFG
  */
 $GLOBALS['EFG']['storable_fields'][] = 'condition_radio';
+$GLOBALS['EFG']['storable_fields'][] = 'condition_checkbox';
 $GLOBALS['EFG']['storable_fields'][] = 'condition_select';

@@ -13,8 +13,9 @@
 /**
  * Frontend form fields
  */
-$GLOBALS['TL_LANG']['FFL']['condition_radio']	= array('Abhängiges Radio-Button-Menü', 'Ein abhängiges einzeiliges Drop-Down-Menü.');
-$GLOBALS['TL_LANG']['FFL']['condition_select']	= array('Abhängiges Select-Menü', 'Eine Liste mehrerer abhängiger Optionen, von denen eine ausgewählt werden kann.');
+$GLOBALS['TL_LANG']['FFL']['condition_radio']		= array('Abhängiges Radio-Button-Menü', 'Ein abhängiges einzeiliges Drop-Down-Menü.');
+$GLOBALS['TL_LANG']['FFL']['condition_checkbox']	= array('Abhängiges Checkbox-Menü', 'Ein abhängiges einzeiliges Drop-Down-Menü.');
+$GLOBALS['TL_LANG']['FFL']['condition_select']		= array('Abhängiges Select-Menü', 'Eine Liste mehrerer abhängiger Optionen, von denen eine ausgewählt werden kann.');
 
 /**
  * Fields

@@ -17,6 +17,7 @@ $dc = &$GLOBALS['TL_DCA']['tl_form_field'];
  */
 $dc['palettes']['condition_radio'] = '{type_legend},type,name,label;{fconfig_legend},mandatory;{options_legend},options;{expert_legend:hide},class;{template_legend:hide},customTpl;{submit_legend},addSubmit';
 $dc['palettes']['condition_select'] = '{type_legend},type,name,label;{fconfig_legend},mandatory;{options_legend},options;{expert_legend:hide},class;{template_legend:hide},customTpl;{submit_legend},addSubmit';
+$dc['palettes']['condition_checkbox'] = '{type_legend},type,name,label;{fconfig_legend},mandatory;{options_legend},options;{expert_legend:hide},class;{template_legend:hide},customTpl;{submit_legend},addSubmit';
 
 /**
  * Fields
@@ -26,7 +27,7 @@ $dc['fields']['value']['eval']['decodeEntities'] = true;
 
 foreach($dc['palettes'] as $name => $palette)
 {
-	if(in_array($name, array('__selector__', 'condition_radio', 'condition_select'))) continue;
+	if(in_array($name, array('__selector__', 'condition_radio', 'condition_select', 'condition_checkbox'))) continue;
 	
 	$dc['palettes'][$name] .= ';{condition_legend},cond';
 }
